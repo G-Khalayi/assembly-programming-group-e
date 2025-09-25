@@ -22,3 +22,6 @@ p/t $rax
 
 # Show as character (for AL)
 p/c $al
+
+# to set a new value in the gdb
+set $[reg] =  [new_value]
